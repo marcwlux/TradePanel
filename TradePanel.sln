@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradePanel", "TradePanel\TradePanel.csproj", "{C84B9B5F-703D-4C85-AF88-C719AC63B763}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MtGuiController", "MtGuiController\MtGuiController.csproj", "{C55DF26C-CE58-4E23-A6C5-8E2AD1D1F7B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MQ5", "MQ5", "{F2F95222-D051-488E-AE32-7621343FF944}"
+	ProjectSection(SolutionItems) = preProject
+		TradePanel.mq5 = TradePanel.mq5
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C84B9B5F-703D-4C85-AF88-C719AC63B763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84B9B5F-703D-4C85-AF88-C719AC63B763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84B9B5F-703D-4C85-AF88-C719AC63B763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84B9B5F-703D-4C85-AF88-C719AC63B763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55DF26C-CE58-4E23-A6C5-8E2AD1D1F7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55DF26C-CE58-4E23-A6C5-8E2AD1D1F7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55DF26C-CE58-4E23-A6C5-8E2AD1D1F7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55DF26C-CE58-4E23-A6C5-8E2AD1D1F7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C71E285E-3227-4F53-A532-37D36AD79D6D}
+	EndGlobalSection
+EndGlobal
